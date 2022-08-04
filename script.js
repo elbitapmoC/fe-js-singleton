@@ -29,3 +29,5 @@ class Counter {
 // For a singleton, it should only be able to be instantiated one time.
 const singletonCounter = Object.freeze(new Counter());
 export default singletonCounter;
+
+// Singletons are considered an ANTI-PATTERN and should be avoided in JS.
